@@ -22,13 +22,14 @@ img {
   width: 250px;
 }
 a {
-  color: #2f1e24;
-  background: #95a3b3;
+  color: #f0eff4;
+  background: #C86A78;
   text-decoration: none;
   padding: 8px;
-  border: 1px solid #1d1c20;
+  border: 1px solid #f0eff4;
   border-radius: 4px;
   margin: 10px;
+
 }
 a:hover {
   text-decoration: underline;
@@ -99,16 +100,16 @@ h4 {
 /*PROFILE
 ---------------------------*/
 header {
-  background: #f0eff4;
+  background: #fff;
   color: #1d1c20;
   text-align: center;
-  padding: 250px;
+  padding: 150px 150px;
   border-bottom: 2px dotted #95a3b3 ;
 
 }
 
 nav {
-  background-color: #95a3b3;
+  background-color: #C86A78;
 }
 
 img {
@@ -123,15 +124,21 @@ hr {
     height: 2px;
 }
 
+.hero {
+  background-image: url("../images/wideUntitled\ design.gif");
+  background-size: 100% ;
+  background-repeat: no-repeat;
+}
 /*PROJECTS
 ---------------------------*/
 .projects {
-  background: #f0eff4;
+  background: #fff;
   padding: 40px;
+  border-bottom: 2px dotted green;
 }
 .project-item {
   overflow: hidden;
-  border-bottom: 1px solid #95a3b3;
+  border-bottom: 1px solid green;
   padding: 25px 0;
 }
 
@@ -142,21 +149,23 @@ hr {
 /*WORK EXPERIENCE
 ---------------------------*/
 .workExperience {
-  background-color: #95a3b3;
+  background-color: #fff;
   color: #2f1e24;
+  border-bottom: 2px dotted green;
 }
 
 /*EDUCATION
 ---------------------------*/
 .education {
-  background: #f0eff4;
+  background: #fff;
+  /* border-bottom: 2px dotted green; */
 }
 
 /*CONTACT INFO
 ---------------------------*/
 footer {
-  background: #95a3b3;
-  color: #1d1c20;
+  background: #C86A78;
+  color: #fff;
   text-align: center;
 }
 
