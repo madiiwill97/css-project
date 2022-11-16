@@ -104,7 +104,7 @@ header {
   color: #1d1c20;
   text-align: center;
   padding: 150px 150px;
-  border-bottom: 2px dotted #95a3b3 ;
+  border-bottom: 2px solid darkseagreen ;
 
 }
 
@@ -134,11 +134,11 @@ hr {
 .projects {
   background: #fff;
   padding: 40px;
-  border-bottom: 2px dotted green;
+  border-bottom: 2px solid darkseagreen;
 }
 .project-item {
   overflow: hidden;
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid darkseagreen;
   padding: 25px 0;
 }
 
@@ -151,7 +151,7 @@ hr {
 .workExperience {
   background-color: #fff;
   color: #2f1e24;
-  border-bottom: 2px dotted green;
+  border-bottom: 2px solid darkseagreen;
 }
 
 /*EDUCATION
